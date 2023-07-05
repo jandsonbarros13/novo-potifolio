@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./imgs/logo4.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Jandson Barros - Engenheiro de computação</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <h1>PORTI<span>FOLIO</span></h1>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li><a href="#sobre">SOBRE</a></li>
+          <li><a href="#habilidades">HABILIDADES</a></li>
+          <li><a href="#projetos">PROJETOS</a></li>
+          <li><a href="#contatos">CONTATOS</a></li>
+        </ul>
+      </div>
+      <div class="login-button"><input type="checkbox" class="checkbox" id="chk" /><label class="label" for="chk"><i
+            class="fas fa-moon"></i><i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label></div>
+      <div class="mobile-menu-icon"><button onclick="menuShow()">&#9776</button></div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="#sobre">SOBRE</a></li>
+        <li><a href="#habilidades">HABILIDADES</a></li>
+        <li><a href="#projetos">PROJETOS</a></li>
+        <li><a href="#contatos">CONTATOS</a></li>
+      </ul>
+    </div>
+  </header>
+  <section>
+    <div class="cabecalho">
+      <div class="texto-digita">
+        <h1 class="text-digitador" id="text-digitador">Ola,
+          eu sou Pedro Barros Engenheiro de computação e Desenvolvedor Full-stack</h1>
+        <div class="botoes-ctt">
+          <button class="curriculo"><a href="./Profile (1).pdf" target="_blank">Curriculo</a></button>
+          <button class="contato"><a href="https://api.whatsapp.com/send?phone=5585987749362"
+              target="_blank">Contato</a></button>
+        </div>
+
+      </div>
+      <div class="img-foto"><img src="./imgs/foto.jpg" alt="minha-foto" class="foto"></div>
+    </div>
+  </section>
+  <section class="hidden" id="sobre">
+    <div class="sobre">
+      <h1>Sobre mim</h1>
+      <p>Desenvolvedor Full-stack desde 2018 com experiência em React.js,
+        Next.js,
+        Redux,
+        JavaScript,
+        TypeScript,
+        Styled Components,
+        SQL,
+        AWS e consumo de APIs REST. </p>
+      <p>Me reconheço como entusiasta em novas tecnologias do mercado,
+        ágil,
+        focado e consistente em aprender uma nova tecnologia e alta adaptabilidade às mudanças,
+        pronto para superar qualquer desafio ! Se eu pudesse me definir em 3 palavras,
+        certamente seriam: proativo,
+        perseverante e esforçado ! </p>
+    </div>
+    <hr>
+  </section>
+  <section id="habilidades" class="hidden">
+    <div class="habilidades">
+      <h1>Principais Habilidades</h1>
+      <div class="icones">
+        <div class="ling">
+          <ion-icon name="logo-react"></ion-icon>
+          <h1>React</h1>
+          <p>Trabalho com react desde 2021 com diversas experiencias e conhecimentos, principalmente com SPA, hooks e
+            componentizações.</p>
+        </div>
+        <div class="ling">
+          <ion-icon name="logo-javascript"></ion-icon>
+          <h1>JAVASCRIPT</h1>
+          <p>Desenvolvo com JavaScript desde 2018, com conhecimento basico como DOM e funções, ate conhecimentos mais
+            avançados como Async/await e promises.</p>
+        </div>
+        <div class="ling">
+          <img src="./imgs/icons8-typescript-500.png" alt="logo" class="logo-icone">
+          <h1>TYPESCRIPT</h1>
+          <p>Experiencia com projetos juntamente com React e redux principalmente usando tipagem modulos e
+            principalmente a Orientação a objetos.</p>
+        </div>
+
+      </div>
+      <div class="icones2">
+        <div class="ling">
+          <ion-icon name="logo-html5"></ion-icon>
+          <h1>HTML</h1>
+          <p>Conhecimento avançado na linguagem de marcação principalmente na utilização de determinados recursos como
+            frames tabelas e principalmente formularios, importações e uso das Principais tags.</p>
+        </div>
+        <div class="ling">
+          <ion-icon name="logo-css3"></ion-icon>
+          <h1>CSS</h1>
+          <p>Conhecimento avançado na linguagem de estilização utilizando desde fremeworks ate css raiz usando flexbox
+            principalmente usando flex e grid e com responsividade.</p>
+        </div>
+
+        <div class="ling">
+          <img src="./imgs/icons8-sql-60.png" alt="logo" class="logo-icone">
+          <h1>SQL</h1>
+          <p>Conhecimento com banco de dados SQL e com frameworks com o mysql, utilizando principalmente a manipulação
+            de dados e conhecendo o CRUD principalmente.</p>
+        </div>
+        <div class="ling">
+          <img src="./imgs/icons8-redux-500.png" alt="logo" class="logo-icone">
+          <h1>REDUX</h1>
+          <p>Utilizando desde 2020 o gerenciamento de estado com redux pricipalmente no react com typescript completando
+            assim a aplicação.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <section id="projetos" class="hidden">
+    <h1 class="titulo">Meus Projetos</h1>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <img src="./imgs/comex.jpg" alt="imgs" class="img-projetos">
+          <h3>Site Comex</h3>
+          <p>Site explicando a area de comercio exterior e onde seria suas atuações e principalmente com e seu
+            trabalho no dia a dia</p>
+          <ul>
+            <li><ion-icon class="icons-projetos" name="logo-html5"></ion-icon></li>
+            <li><ion-icon class="icons-projetos" name="logo-javascript"></ion-icon></li>
+            <li><ion-icon class="icons-projetos" name="logo-css3"></ion-icon>
+            </li>
+          </ul>
+          <button class="btn-projetos"><a href="https://lista-de-tarefas-d7qo.vercel.app/" target="_blank">Ver
+              site</a></button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <img src="./imgs/controle-fin.jpg" alt="imgs" class="img-projetos">
+          <h3>Controle financeiro</h3>
+          <p>Site demonstrando como controlar suas contas e e calcular gastos excessivos</p>
+          <ul>
+            <li><ion-icon class="icons-projetos" name="logo-html5"></ion-icon></li>
+            <li><ion-icon class="icons-projetos" name="logo-javascript"></ion-icon></li>
+            <li><ion-icon class="icons-projetos" name="logo-css3"></ion-icon>
+            </li>
+          </ul>
+
+          <button class="btn-projetos"><a href="https://controle-financeio.vercel.app/" target="_blank">Ver
+              site</a></button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <img src="./imgs/eletronicos.jpg" alt="imgs" class="img-projetos">
+          <h3>Site Eletronicos</h3>
+          <p>Site eletronico com filtro de produtos utilizando principalmente react e js</p>
+          <ul>
+            <li><ion-icon class="icons-projetos" name="logo-react"></ion-icon></li>
+            <li><ion-icon class="icons-projetos" name="logo-javascript"></ion-icon></li>
+            <li><ion-icon class="icons-projetos" name="logo-css3"></ion-icon>
+            </li>
+          </ul>
+
+          <button class="btn-projetos"><a href="https://loja-eletronica.vercel.app/" target="_blank">Ver
+              site</a></button>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <section id="ver-mais" class="hidden">
+    <h1 class="titulo">Veja mais projetos</h1>
+    <div class="alinha-btn">
+      <div class="outros-projetos">
+        <div class="container2">
+          <div class="card">
+            <div class="content">
+              <img src="./imgs/calculadora.jpg" alt="imgs" class="img-projetos">
+              <h3>Calculadora React</h3>
+              <p>Calculadora simples utilizando todas as operações fundamentais</p>
+              <ul>
+                <li><ion-icon class="icons-projetos" name="logo-react"></ion-icon></li>
+                <li><ion-icon class="icons-projetos" name="logo-javascript"></ion-icon></li>
+                <li><ion-icon class="icons-projetos" name="logo-css3"></ion-icon>
+                </li>
+              </ul>
+              <div class="alinha-btn"><button class="btn-projetos"><a href="https://calculadora-react1.vercel.app/"
+                    target="_blank">Ver
+                    site</a></button></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <img src="./imgs/barbearia.jpg" alt="imgs" class="img-projetos">
+              <h3>Site Barbearia</h3>
+              <p>Site barbearia apenas com html e css usando divs e flexbox</p>
+              <ul>
+                <li><ion-icon class="icons-projetos" name="logo-html5"></ion-icon></li>
+                <li><ion-icon class="icons-projetos" name="logo-javascript"></ion-icon></li>
+                <li><ion-icon class="icons-projetos" name="logo-css3"></ion-icon>
+                </li>
+              </ul>
+              <div class="alinha-btn"><button class="btn-projetos"><a href="https://site-barbearia-two.vercel.app"
+                    target="_blank">Ver
+                    site</a></button></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <img src="./imgs/tabela-nut.jpg" alt="imgs" class="img-projetos">
+              <h3>Tabela nutrição</h3>
+              <p>Sistema que recebe o peso e altura e calcula o imc do paciente</p>
+              <ul>
+                <li><ion-icon class="icons-projetos" name="logo-html5"></ion-icon></li>
+                <li><ion-icon class="icons-projetos" name="logo-javascript"></ion-icon></li>
+                <li><ion-icon class="icons-projetos" name="logo-css3"></ion-icon>
+                </li>
+              </ul>
+
+              <button class="btn-projetos2"><a href="https://tabela-nutricao.vercel.app/" target="_blank">Ver
+                  site</a></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <img src="./imgs/barbearia-resp.jpg" alt="imgs" class="img-projetos">
+              <h3>Barbearia responsiva</h3>
+              <p>SIte barbearia totalmente responsivo usando flexbox</p>
+              <ul>
+                <li><ion-icon class="icons-projetos" name="logo-html5"></ion-icon></li>
+                <li><ion-icon class="icons-projetos" name="logo-javascript"></ion-icon></li>
+                <li><ion-icon class="icons-projetos" name="logo-css3"></ion-icon>
+                </li>
+              </ul>
+
+              <button class="btn-projetos2"><a href="https://loja-eletronica.vercel.app/" target="_blank">Ver
+                  site</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="ver-mais" id="show-hide">Ver mais</button>
+  </section>
+  <footer class="hidden" id="contatos">
+    <div class="rodape">
+      <div class="contato-rodape"><a href="https://github.com/jandsonbarros13" target="_blank"><ion-icon
+            name="logo-github" class="icone-rodape"></ion-icon></a>
+        <p>@jandsonbarros13</p>
+      </div>
+      <div class="contato-rodape">
+        <a href="tel:+5585987749362" target="_blank"><ion-icon name="call-outline" class="icone-rodape"></ion-icon></a>
+        <p>+5585987749362</p>
+      </div>
+      <div class="contato-rodape"><a href="https://www.linkedin.com/in/pedro-jandson-barros-muniz-1a4a691a6/"
+          target="_blank"><ion-icon name="logo-linkedin" class="icone-rodape"></ion-icon></a>
+        <p>@jandsonbarros13</p>
+      </div>
+      <div class="contato-rodape"><a href="mailto:jandsonbarros87@gmail.com" target="_blank"><ion-icon
+            name="mail-outline" class="icone-rodape"></ion-icon></a>
+        <p>jandsonbarros87@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./vanilla-tilt.js"></script>
+  <script src="./index.js"></script>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>VanillaTilt.init(document.querySelectorAll(".card"));
+  </script>
+</body>
+
+</html>
